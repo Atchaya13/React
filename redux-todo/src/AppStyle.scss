@@ -1,0 +1,51 @@
+.heading {
+  color: green;
+}
+.App {
+  background-color: #eee;
+}
+.box {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -10%;
+}
+#my-span {
+  margin: 2px 4px;
+}
+.singleRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(184, 180, 180);
+  padding: 8px;
+  margin-bottom: 4px;
+  padding: 8px;
+}
+.fa-trash {
+  font-size: 20px;
+}
+.fa-edit {
+  font-size: 20px;
+}
+
+.searchText {
+  margin-left: 260px;
+}
+.inCompleteTask {
+  text-decoration-line: none;
+  cursor: pointer;
+}
+.completedTask {
+  text-decoration-line: line-through;
+  cursor: pointer;
+}
+.fa-trash {
+  cursor: pointer;
+}
+.fa-edit {
+  cursor: pointer;
+}
+.btn-info {
+  color: black;
+  background-color: aquamarine;
+}

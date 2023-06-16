@@ -1,0 +1,31 @@
+.columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: auto;
+}
+ul{
+    list-style-type: none;
+}
+.taskText{
+    background-color: white;
+    padding: 0.5rem;
+}
+.buttonBox{
+     display:flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     column-gap:0.5rem;
+     row-gap: 0.5rem;
+     align-items: center;
+}
+.taskCard{
+    background-color: #e7f7f5;
+    padding: 0.5rem;
+}
